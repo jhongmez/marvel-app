@@ -1,0 +1,13 @@
+@import 'src/styles';
+
+footer {
+    background-color: $black2;
+    padding: 20px 0;
+
+    .footer-title {
+        p {
+            color: $white3;
+            font-size: 15px;
+        }
+    }
+}
