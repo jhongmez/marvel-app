@@ -1,0 +1,39 @@
+@import 'src/styles';
+
+header {
+    position: fixed;
+    width: 100%;
+
+    .navbar {
+        background-color: $black2;
+        padding: 10px 0;
+
+        .navbar-content {
+            display: flex;
+            align-items: center;
+
+            &__image {
+                width: 30%;
+                img {
+                    width: 130px;
+                    margin-right: 40px;
+                }
+    
+            }
+            
+            &__search {
+                width: 70%;
+                input {
+                    background-image: url('../../../../assets/image/icons/ic_search.png');
+                    background-repeat: no-repeat;
+                    background-position: 98% 4px;
+                    width: 600px;
+                    position: relative;
+                }
+
+            }
+        }
+    
+    }
+
+}
